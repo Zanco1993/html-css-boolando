@@ -10,14 +10,12 @@ body{
 .container{
     width: 1200px;
     background-color: white;
-    border: 1px solid black;
     margin: 0 auto;
 }
 
 .modello{
     width: calc(1200px / 3 - 45PX);
     margin: 20px;
-    border: 1px solid black;
     display: inline-block;
     position: relative;
     
@@ -62,22 +60,23 @@ body{
     font-weight: 800;
 }
 
+.row{
+    position: absolute;
+    bottom: 80px;
+
+}
+
 #sconto{
     color: white;
     background-color: red;
     padding: 5px;
-    position: absolute;
-    bottom: 70px;
-    left: 0;
 }
     
-#sostenibilita{
+#sostenibile{
     color: white;
     background-color: green;
     padding: 5px;
-    position: absolute; 
-    left: 50px;
-    bottom: 70px;
+    
 } 
 
 #cuore{
